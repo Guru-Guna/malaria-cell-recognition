@@ -209,8 +209,8 @@ plt.show()
 
 
 ### New Sample Data Prediction
-![Uploading out4.png…]()
 
+![last](https://github.com/Guru-Guna/malaria-cell-recognition/assets/93427255/78e5ccc3-d329-4064-b970-0af21cfeb8b8)
 
 
 
