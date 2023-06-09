@@ -43,8 +43,8 @@ Fit the model and predict the sample input.
 
 ## PROGRAM:
 ```python
-### Developed By    : Javith farkhan S
-### Register Number : 212221240017
+### Developed By    : Gunaseelan G
+### Register Number : 212221230031
 ```
 ```python
 import os
@@ -191,27 +191,27 @@ plt.show()
 ## OUTPUT:
 
 ### Training Loss, Validation Loss Vs Iteration Plot
-
-![DL 8 1](https://github.com/Javith-farkhan/malaria-cell-recognition/assets/94296805/915e1a1a-8bc2-49ce-8fde-695f4d83226b)
-
+![out1](https://github.com/Guru-Guna/malaria-cell-recognition/assets/93427255/d13fa696-7601-4516-a219-33046aaf80a0)
 
 
-![DL 8 2](https://github.com/Javith-farkhan/malaria-cell-recognition/assets/94296805/2c3b6c47-f2fd-4839-b6dc-07e3ce88884e)
+![out2](https://github.com/Guru-Guna/malaria-cell-recognition/assets/93427255/52c504e2-eca0-4a75-b521-0994445bdd9c)
 
 
 ### Classification Report
 
-![DL 8 3](https://github.com/Javith-farkhan/malaria-cell-recognition/assets/94296805/8a5d83e6-f86a-4af9-a93f-c0404da2d328)
+![out3](https://github.com/Guru-Guna/malaria-cell-recognition/assets/93427255/b13b06f4-8053-4ce8-965e-9c002bccaa98)
+
 
 
 ### Confusion Matrix
+![out2 5](https://github.com/Guru-Guna/malaria-cell-recognition/assets/93427255/a51ebe1b-a70b-4e89-bf71-6d3cbb68b64f)
 
-![DL 8 4](https://github.com/Javith-farkhan/malaria-cell-recognition/assets/94296805/a4d23272-a6e0-4f35-8a24-72b3aba28079)
 
 
 ### New Sample Data Prediction
+![Uploading out4.png…]()
 
-![image](https://github.com/NITHISH74/malaria-cell-recognition/assets/94164665/16097c7f-39c6-418f-be70-7dadd9f05afc)
+
 
 
 ## RESULT:
