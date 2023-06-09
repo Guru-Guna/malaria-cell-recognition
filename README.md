@@ -107,7 +107,7 @@ model = models.Sequential()
 model.add(layers.Conv2D(filters=32, kernel_size=(3,3),input_shape=image_shape, activation='relu',))
 model.add(layers.MaxPooling2D(pool_size=(2, 2)))
 
-model.add(layers.Conv2D(filters=64, kernel_size=(3,3), activation='relu',))
+model.add(layers.Conv2D(filters=32, kernel_size=(3,3), activation='relu',))
 model.add(layers.MaxPooling2D(pool_size=(2, 2)))
 
 model.add(layers.Conv2D(filters=64, kernel_size=(3,3), activation='relu',))
@@ -117,7 +117,7 @@ model.add(layers.MaxPooling2D(pool_size=(2, 2)))
 model.add(layers.Flatten())
 
 
-model.add(layers.Dense(128))
+model.add(layers.Dense(512))
 model.add(layers.Activation('relu'))
 
 model.add(layers.Dropout(0.5))
@@ -154,7 +154,7 @@ test_image_gen = image_gen.flow_from_directory(test_path,
                                                batch_size=batch_size,
                                                class_mode='binary',shuffle=False)
 train_image_gen.class_indices
-results = model.fit(train_image_gen,epochs=4,
+results = model.fit(train_image_gen,epochs=5,
                               validation_data=test_image_gen
                              )
 losses = pd.DataFrame(model.history.history)
